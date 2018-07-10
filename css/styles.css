@@ -1,0 +1,23 @@
+.site-wrapper {
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+/* This is where the magic starts */
+.udacity-btn {
+    color: #ffffff;
+    padding: 10px 40px;
+    background-color: #02b3e4;
+    border-color: transparent;
+    border-radius: .25rem;
+    box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+    cursor: pointer;
+    transition: all .3s;
+}
+.udacity-btn:focus, .udacity-btn:hover {
+    color: #ffffff;
+    outline: 0;
+    background-color: #029fcb;
+    box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2);
+}
